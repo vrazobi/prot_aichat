@@ -1,0 +1,88 @@
+import type { KnowledgeCategory } from '@/types';
+
+export const categories: KnowledgeCategory[] = [
+  {
+    id: 'institusi',
+    label: 'Tentang Pusat AI ITB',
+    shortLabel: 'Tentang',
+    icon: 'Building2',
+    description: 'Profil institusi, sejarah, visi, misi, dan peneliti utama Pusat AI ITB.',
+  },
+  {
+    id: 'prioritas-riset',
+    label: 'Prioritas Riset',
+    shortLabel: 'Prioritas Riset',
+    icon: 'Target',
+    description: 'Arah riset AI ITB periode 2024–2029 dan bidang aplikasi utama.',
+  },
+  {
+    id: 'public-services',
+    label: 'Public Services',
+    shortLabel: 'Public Services',
+    icon: 'Bus',
+    description: 'Proyek AI untuk layanan publik dan transportasi.',
+  },
+  {
+    id: 'surveillance',
+    label: 'Surveillance',
+    shortLabel: 'Surveillance',
+    icon: 'ScanEye',
+    description: 'Proyek deteksi, pelacakan, dan pengawasan berbasis AI.',
+  },
+  {
+    id: 'education',
+    label: 'Education',
+    shortLabel: 'Education',
+    icon: 'GraduationCap',
+    description: 'Proyek AI untuk pendidikan dan pembelajaran.',
+  },
+  {
+    id: 'healthcare',
+    label: 'Healthcare',
+    shortLabel: 'Healthcare',
+    icon: 'HeartPulse',
+    description: 'Proyek AI untuk kesehatan dan medis.',
+  },
+  {
+    id: 'finance-retail',
+    label: 'Finance & Retail',
+    shortLabel: 'Finance & Retail',
+    icon: 'ShoppingCart',
+    description: 'Proyek AI untuk keuangan, ritel, dan analisis sentimen.',
+  },
+  {
+    id: 'energy-environment',
+    label: 'Energy & Environment',
+    shortLabel: 'Energy & Env.',
+    icon: 'Zap',
+    description: 'Proyek AI untuk energi, lingkungan, dan area berbahaya.',
+  },
+  {
+    id: 'nlp-cv',
+    label: 'NLP & Computer Vision',
+    shortLabel: 'NLP & CV',
+    icon: 'BrainCircuit',
+    description: 'Model bahasa Indonesia, sumber daya NLP, dan penelitian computer vision.',
+  },
+  {
+    id: 'akademik',
+    label: 'Academic Programs & Training',
+    shortLabel: 'Akademik',
+    icon: 'BookOpen',
+    description: 'Program studi AI dan topik pelatihan yang dicantumkan dalam presentasi.',
+  },
+  {
+    id: 'advanced-research',
+    label: 'Advanced AI Research',
+    shortLabel: 'Advanced Research',
+    icon: 'Cpu',
+    description: 'Penelitian AI tingkat lanjut: neural networks, privacy, dan machine unlearning.',
+  },
+  {
+    id: 'kontak',
+    label: 'Kontak',
+    shortLabel: 'Kontak',
+    icon: 'Mail',
+    description: 'Informasi kontak resmi Center for Artificial Intelligence ITB.',
+  },
+];
